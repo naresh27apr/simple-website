@@ -1,4 +1,33 @@
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+}
+
+
+html, body {
+    height: 100vh;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
 header {
     background-color: navy;
     color: white;
